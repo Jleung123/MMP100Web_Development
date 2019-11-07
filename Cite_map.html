@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This city is worth it</title>
+	<link href="styles.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+</head>
+<body>
+	<div id="main">
+		<div id="header">
+			<div id="buttons">
+				<a href="index.html"  class="but" title="">HOME</a><div class="links"></div>
+				<a href="gallery.html"  class="but" title="">Gallery</a><div class="links"></div>
+				<a href="BIO.html" class="but" title="">BIO</a><div class="links"></div>
+				<a href="PSA.html"  class="but" title="">PSA</a><div class="links"></div>
+			</div>
+			<div id="logo">
+				<h1>Jeremy's Website</h1>
+			</div>
+		</div>
+		<div class="top">	
+			<div id="slider-wrapper">        
+				<div id="slider" class="nivoSlider">
+					<img src="images/Slider1.jpg" alt=""/>
+					<img src="images/Slider2.jpg" alt=""/>
+					<img src="images/Slider3.jpg" alt=""/>
+					<img src="images/Slider4.jpg" alt=""/>
+					<img src="images/Slider5.jpg" alt=""/>
+				</div>   
+			</div>
+			<script type="text/javascript" src="lib/jquery-1.4.3.min.js"></script>
+			<script type="text/javascript" src="lib/jquery.nivo.slider.pack.js"></script>
+			<script type="text/javascript">
+			$(window).load(function() {
+				$('#slider').nivoSlider();
+			});
+			</script>
+		</div>
+		<div style="height:10px"></div>
+		<div id="content">
+			<div id="left">
+				<h1>CITE MAP</h1>
+				<div style="height:10px"></div>
+				<iframe src="images/CITE MAP.pdf" width = "990px" height = "1100px" alt="" />
+			</div>
+			<div style="clear:both"></div>            
+		</div>
+		<div style="height:15px"></div>
+		<div id="bottom_bot">
+			<div id="bottom">
+				<div id="b_col3">
+					<h1>Contact Information</h1>
+					<div style="height:15px"></div>
+					<div  class="box_us">
+						<div  class="box_us_l">
+						<img src="images/House_Icon.png" alt="" />
+						</div>
+						<div  class="box_us_r">
+							<b class="lh">1600 Pennsylvania Ave NW, Washington, DC 20500</b>
+						</div>
+						<div style="clear: both; height:10px;"></div>
+					</div>
+					<div  class="box_us">
+						<div  class="box_us_l">
+							<img src="images/Phone_Icon.png" alt="" />
+						</div>
+						<div  class="box_us_r">
+							<b class="lh">Phone:  1(234) 567 8910<br />
+								Fax: 1(234) 567 8910
+							</b>
+						</div>
+						<div style="clear: both; height:10px;"></div>
+						</div>
+						<div  class="box_us">
+						<div  class="box_us_l">
+							<img src="images/Email_Icon.png" alt="" />
+						</div>
+						<div>
+							<b>E-mail: jeremy.leung@st.bmcc.cuny.edu</b>
+						</div>
+						<div style="clear: both; height:10px;"></div>
+					</div>
+				</div>
+				<div style="clear: both; height:20px;"></div>
+			</div>
+		</div>
+		<div id="footer">
+			<div style="float: left; width: 500;">
+				Copyright 2019. Designed by Jeremy Leung coded by Jeremy Leung
+				<br><p>Privacy Policy | Terms of Use</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
